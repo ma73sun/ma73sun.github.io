@@ -1,2 +1,2 @@
-<h1>Portfolio</h1>
+# Portfolio
 <p>IT'S MY FIRST GITHUB PORTFOLIO!!</p>
