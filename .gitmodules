@@ -1,3 +1,6 @@
 [submodule "Portfolio_ver1"]
 	path = Portfolio_ver1
 	url = https://github.com/ma73sun/Portfolio_ver1
+[submodule "Portfolio_ver2"]
+	path = Portfolio_ver2
+	url = https://github.com/ma73sun/Portfolio_ver2
