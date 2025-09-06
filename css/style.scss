@@ -3,6 +3,7 @@
 :root {
     color-scheme: light dark;/*デバイスの設定によって色変更*/
     --main__textColor: light-dark(#5c6063, #fff);
+    --main__textStrokeColor: light-dark(#fff, #333);
     --main__backColor: light-dark(#d2eaf0, #9593b9);
     --header__backColor: light-dark(#b1d6e2 ,#c3bddb);
 }
@@ -76,6 +77,14 @@ main {
             bottom: min(3.91vw, 40px);
             color: var(--main__textColor);
             font-size: clamp(48px, 5.86vw, 160px);
+            text-shadow: 1px 1px 0 var(--main__textStrokeColor),
+                        -1px -1px 0 var(--main__textStrokeColor),
+                        -1px 1px 0 var(--main__textStrokeColor),
+                        1px -1px 0 var(--main__textStrokeColor),
+                        1px 0 0 var(--main__textStrokeColor),
+                        -1px 0 0 var(--main__textStrokeColor),
+                        0 1px 0 var(--main__textStrokeColor),
+                        0 -1px 0 var(--main__textStrokeColor),
         }
         &__numbering {
             opacity: .3;
